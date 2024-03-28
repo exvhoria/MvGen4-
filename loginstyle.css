@@ -1,0 +1,59 @@
+/* style_login.css */
+
+.login-container {
+    background-color: #000; /* Warna hitam */
+    color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.login-container h2 {
+    margin-bottom: 30px;
+    color: #ffffff; /* Warna teks */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-form button {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #333;
+}
+
+.login-link {
+    color: #fff;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

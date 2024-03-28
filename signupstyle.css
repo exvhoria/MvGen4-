@@ -1,0 +1,56 @@
+/* style_signup.css */
+
+.signup-container {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-form button {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+    background-color: #333;
+}
+
+.signup-link {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #a600ff; /* Warna hijau */
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

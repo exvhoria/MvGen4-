@@ -1,0 +1,21 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.slide {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slide li {
+    margin-bottom: 10px;
+    color: #666;
+}
